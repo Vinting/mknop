@@ -1,5 +1,5 @@
 # 斐讯N1一键制作OpenWrt镜像脚本
-
+恩山地址:https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=777305
 usage:
 1. 编译, 不会的可以去 https://github.com/coolsnowwolf/lede <br>
    target可以选"Raspberry Pi 3B/3B+" / "ARMv8 multiplatform" <br>
@@ -7,3 +7,8 @@ usage:
    注意: 固件格式只支持"ext4-factory.img.gz"、"ext4-factory.img"和"rootfs.tar.gz"<br>
 3. 执行bash mk.sh, 默认输出路径“out/xxx.img”
 4. 写入U盘启动OpenWrt
+ps：
+已添加橙子的WiFi脚本，如需使用WiFi，按以下配置编译即可：
+Target System (Broadcom BCM27xx)  --->
+Subtarget (BCM2710 64 bit based boards)  --->
+Target Profile (Raspberry Pi 3B/3B+)  --->
